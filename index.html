@@ -42,22 +42,32 @@
    </header>
 
   <!-- Main Section -->
-   <main class="max-w-[1160px] mx-auto pt-13">
+   <main class="max-w-[1160px] mx-auto pt-13 px-2">
     <!-- Banner Section -->
-     <section>
-      <div>
-        <h1>Get body in <br> shape & stay <br> healthy</h1>
+     <section class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+      <div class="space-y-7">
+        <h1 class="text-4xl sm:text-6xl md:text-7xl text-white font-black text-center lg:text-left leading-[120%]">Get body in <br> shape & stay <br> healthy</h1>
 
-        <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+        <p class="max-w-[274px] md:max-w-[520px] mx-auto text-center lg:text-left leading-6 text-[#ffffff80]">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
 
-        <div>
-          <button>Join Now</button>
-          <button>Download App</button>
+        <div class="flex gap-2 justify-center lg:justify-start">
+          <button class="w-full max-w-[140px] sm:max-w-56 text-base sm:text-lg text-white bg-[#E6533C] border border-[#E6533C] py-3 rounded-[42px]">Join Now</button>
+          <button class="w-full max-w-[140px] sm:max-w-56 text-base sm:text-lg text-white border border-white py-3 rounded-[42px]">Download App</button>
         </div>
       </div>
 
-      <div>
-        <img src="images/Banner.png" alt="">
+      <div class="relative mx-auto lg:mr-[5%] max-w-[353px]">
+        <img class="mx-auto lg:mx-0" src="images/Banner.png" alt="">
+
+        <div class="w-full bg-[#ffffff1a] backdrop-blur-sm absolute top-12 md:top-[125px] right-0 md:right-[-60px] max-w-[145px] md:max-w-[180px] text-white py-3 px-[18px] rounded-[10px]">
+          <p class="text-[30px] sm:text-[40px] font-black">500+</p>
+          <p class="text-[10px] text-[#ffffffa6]">Free workout videos</p>
+        </div>
+
+        <div class="w-full bg-[#ffffff1a] backdrop-blur-sm absolute left-3 md:left-[23px] lg:left-[-113px] bottom-[244px] md:bottom-[131px] lg:bottom-[63px] max-w-[155px] md:max-w-[206px] text-white py-3 px-[18px] rounded-[10px]">
+          <p class="text-[30px] font-black">350+</p>
+          <p class="text-[10px] text-[#ffffffa6]">Video tutorial</p>
+        </div>
       </div>
      </section>
    </main>
